@@ -7,7 +7,7 @@
     "name": "Channel Emojis",
     "tagline": "A FOSS reimplementation of the Discord channel emojis experiment",
     "authors": ["s4mi"],
-    "source": "https://github.com/s4midev/moonlight/tree/main",
+    "source": "https://github.com/s4midev/moonlight",
     "description": "Backend Source: https://github.com/s4midev/ChannelEmojis"
   },
   "settings": {

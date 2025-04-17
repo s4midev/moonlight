@@ -1,0 +1,12 @@
+{
+  "$schema": "https://moonlight-mod.github.io/manifest.schema.json",
+  "id": "unlimitedAccounts",
+  "version": "1.0.0",
+  "apiLevel": 2,
+  "meta": {
+    "name": "Unlimited Accounts",
+    "tagline": "Removes the client side cap on switchable accounts",
+    "authors": ["s4mi"],
+    "source": "https://github.com/s4midev/moonlight"
+  }
+}

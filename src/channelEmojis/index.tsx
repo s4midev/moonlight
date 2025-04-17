@@ -5,7 +5,7 @@ export const patches: ExtensionWebExports["patches"] = [
     find: /.iconContainerWithGuildIcon,/g,
     replace: {
       match: /(let .=(.)=>{)(let{className:.)/g,
-      replacement: (orig: any, front: any, prop: any, back: any) =>
+      replacement: (orig: string, front: any, prop: any, back: any) =>
         `${front}return require("channelEmojis_components").EmojiCircle(${prop}.channel);${back}`
     }
   }
